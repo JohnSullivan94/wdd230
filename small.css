@@ -1,0 +1,46 @@
+body {
+    font-size: 18px; 
+    line-height: 1.5; 
+}
+header, main, footer {
+    margin: 1.25rem auto;
+    max-width: 750px;
+}
+header, footer {
+    background-color: brown;
+    color:white; 
+    text-align: center; 
+}
+
+header {
+    padding: 1.0rem;
+    font-family: 'Roboto', sans-serif;
+}
+footer {
+    padding: 0.8rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.15rem;
+}
+
+h2 {
+    font-size: 1rem;
+    border-bottom: 1px solid;
+    margin-bottom: .5rem;
+}
+   
+img { 
+    height: auto;
+    width: 175px; 
+    
+}
+
+#footer{
+    color: white;
+}
+
+#last-updated, #updated {
+    color: yellow;
+}
