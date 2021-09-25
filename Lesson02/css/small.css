@@ -6,7 +6,7 @@ body {
 }
 
 header, footer {
-    background-color: brown;
+    background-color: rgb(133, 44, 44);
     color:white; 
     text-align: center; 
 }
@@ -44,7 +44,7 @@ img {
 
 
 .fc-title, .sc-title, .tc-title {
-    background-color: brown;
+    background-color: rgb(133, 44, 44);
     color: white;
     line-height: 3em;
     text-align: left;
@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     font-size: 1.25em;
     font-weight: bold;
-    color: brown;
+    color: rgb(133, 44, 44);
     text-decoration: none;
 }
 
