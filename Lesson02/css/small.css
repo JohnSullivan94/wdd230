@@ -31,6 +31,7 @@ img {
     min-width: 300px;
     display: block;
     margin: 10px auto;
+    box-shadow: 12px 12px black;
 }
 
 #footer{
