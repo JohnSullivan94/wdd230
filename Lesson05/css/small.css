@@ -17,8 +17,10 @@ header {
 }
 
 header img {
+    display:block;
 	width: 100px;
 	height: auto;
+    margin-left: auto;
 }
 
 .headings {
@@ -36,14 +38,6 @@ header img {
     display: flex;
     margin: 0 auto 25px;
     justify-content:center;
-}
-
-h2 {
-    font-size: 25px;
-    margin: 10px;
-    padding-top: 20px;
-    padding-left: 25%;
-    padding-right: 25%;
 }
 
 body {
@@ -96,23 +90,36 @@ nav {
 	display: block;
 }
 
+.town-heading {
+    margin: -15px;
+}
+
 .hero {
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
-    max-width: 60%;
-    max-height: 300px;
-    overflow: hidden;
-    margin: 0 auto 25px;
-}
-
-.hero-img{
     position: relative;
-    max-width: 100%;
-    max-height: auto;
-    bottom: 250px; 
 }
 
+.hero-box {
+    position: absolute;
+    top: 11%;
+    left: 22%;
+    text-align: center;
+    width: 250px;
+    height: auto;
+    padding-bottom: 5px;
+    background-color: rgba(82, 103, 96, .95);
+}
+
+.hero-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 100%;
+}
+
+.five-day-forecast {
+    text-align: center;
+}
 
 .content-box {
     background-color: #526760;
