@@ -51,8 +51,10 @@ body {
 
 main {
     max-width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
+
+/*nav*/
 
 nav {
 	margin: 0 auto;
@@ -83,51 +85,173 @@ nav {
 	background-color: #F0EDEE;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
+.navigation li.active a {
+    color: #526760;
+	background-color: #F0EDEE;
+}
+
 .responsive li {
 	display: block;
 }
 
-.town-heading {
+ /*hero summary*/
+
+ .town-heading {
     margin: -15px;
 }
 
-.hero {
-    position: relative;
+ .hero-div {
+     margin: 10px auto;
+     position: relative;
+     width: 960px;
+     height: 300px;
+    overflow: hidden;
+ }
+
+ .hero-photo {
+    max-width: 960px;
+    max-height: 300px;
 }
 
-.hero-box {
+ .hero-summary {
     position: absolute;
-    top: 11%;
-    left: 22%;
-    text-align: center;
-    width: 250px;
-    height: auto;
-    padding-bottom: 5px;
-    background-color: rgba(82, 103, 96, .95);
-}
-
-.hero-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 100%;
-}
+    top: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    background:rgba(255, 255, 255, 0.7) ;
+ }
 
 .five-day-forecast {
     text-align: center;
 }
 
-.content-box {
-    background-color: #526760;
-    margin: 0 auto 25px;
-    max-width: 50%;
-    padding: 10px;
-    outline-style: dashed;
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(5, 192px);
+    position: relative;
+    width: 960px;
+    height: 200px;
+    margin: 10px auto;
+    background: rgba(82, 103, 96, 1);
 }
+
+.weather1, .weather2, .weather3, .weather4, .weather5 {
+box-shadow: 0px 0px 5px black;
+   width: 150px;
+   height: 150px;
+   margin-top: 25px;
+   margin-left: 21px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.weather1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.weather2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.weather3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.weather4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.weather5 {
+    grid-column-start: 5;
+}
+
+/*article div*/
+
+.article-heading {
+    text-align: center;
+}
+
+.articlediv {
+    position: relative;
+    background-color: #526760;
+    margin: 10px auto;
+    width: 960px;
+    height: 300px;
+}
+
+.article-para {
+    padding: 5px;
+    position: absolute;
+    margin-top: 37.5px;
+    width: 500px;
+    margin-left: 30px;
+    background:rgba(255, 255, 255, 0.7)
+    
+}
+
+.article-img {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 37.5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*contact info*/
+
+.contact-heading {
+    text-align: center;
+}
+
+.contactdiv {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: #526760;
+}
+
+.contact-img {
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 50px;
+    box-shadow: -2px -2px 2px black;
+}
+
+.contact2-img {
+    position: absolute;
+    margin-left: 645px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.contactbox {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.phone {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 25px;
+
+}
+
+.email {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+/*footer*/
 
 #footer{
     color: white;

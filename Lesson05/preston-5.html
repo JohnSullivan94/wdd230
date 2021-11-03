@@ -31,8 +31,8 @@
             <nav>
                 <ul class="navigation">
                     <li><a href= "#" onclick="toggleMenu()" *>&#9776; Menu</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="preston-5.html">Preston</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li class="active"><a href="preston-5.html">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="#">Storm Center</a></li>
@@ -45,33 +45,59 @@
             </section> 
 
                 
-            <section class="hero">
-                
-                <div class="hero-box">
-                    <h3>Weather Summary</h3>
-                    <p>Current</p>
-                    <p>High</p>
-                    <p>Humidity</p>
-                    <p>Wind Speed</p>
-                </div>
-
-                <img src=images\preston.jpg  alt="preston-weather" class="hero-image">
-                
-            </section>
-
+            <div class="hero-div">    
+                <div class="hero-photo"> <img src="images\preston.jpg"  alt="preston-weather"> </div>
+                    <section class="hero-summary">
+                        <h3>Weather Summary</h3>
+                        <p>Current</p>
+                        <p>High</p>
+                        <p>Humidity</p>
+                        <p>Wind Speed</p>
+                    </section>
+            </div>
                 
 
                 <section class="five-day-forecast">
                     <h2>5 Day Forecast</h2>
                 </section>
 
-                <section class="content-box">
-                    <h3>Article</h3>
+                <div class="forecast">
+                    <div> <img src="images/weather-01.png" alt="sunny" class="weather1"> </div>
+                    <div> <img src="images/weather-02.png" alt="cloudy" class="weather2"> </div>
+                    <div> <img src="images/weather-03.png" alt="rainy" class="weather3"> </div>
+                    <div> <img src="images/weather-04.png" alt="stormy" class="weather4"> </div>
+                    <div> <img src="images/weather-01.png" alt="sunny" class="weather5"> </div>
+                </div>
+
+                <section class="article-heading">
+                    <h2>Article</h2>
                 </section>
 
-                <section class="content-box">
-                    <h3>Contact Information</h3>
+                <div class="articlediv">
+                    <p class="article-para">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum."
+                    </p>
+
+                    <img src="images/article.jpg" alt="article" class="article-img">
+                </div>
+
+                <section class="contact-heading">
+                    <h2>Contact Information</h2>
                 </section>
+
+                <div class="contactdiv">
+                    <div class="contactbox">
+                        <p class="phone">Phone: (333)333-3333</p>
+                        <p class="email">Email: knowingtheweater@email.com</p>
+                    </div>
+                    <img src="images/contact.jpg" alt="contact" class="contact-img">
+                    <img src="images/contact2.jpg" alt="contact2" class="contact2-img">
+                </div>
         </main>
 
         <footer>
