@@ -253,11 +253,11 @@ box-shadow: 0px 0px 5px black;
 /*footer*/
 
 #footer{
-    color: white;
+    color: black;
 }
 
 #last-updated, #updated {
-    color: yellow;
+    color: black;
 }
 
 footer {
