@@ -103,13 +103,13 @@ nav {
  .hero-div {
      margin: 10px auto;
      position: relative;
-     width: 960px;
+     max-width: 960px;
      height: 300px;
     overflow: hidden;
  }
 
  .hero-photo {
-    max-width: 960px;
+    max-width: 100%;
     max-height: 300px;
 }
 
@@ -129,7 +129,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 192px);
     position: relative;
-    width: 960px;
+    max-width: 960px;
     height: 200px;
     margin: 10px auto;
     background: rgba(82, 103, 96, 1);
@@ -179,7 +179,7 @@ box-shadow: 0px 0px 5px black;
     position: relative;
     background-color: #526760;
     margin: 10px auto;
-    width: 960px;
+    max-width: 960px;
     height: 300px;
 }
 
@@ -187,7 +187,7 @@ box-shadow: 0px 0px 5px black;
     padding: 5px;
     position: absolute;
     margin-top: 37.5px;
-    width: 500px;
+    max-width: 500px;
     margin-left: 30px;
     background:rgba(255, 255, 255, 0.7)
     
@@ -208,13 +208,14 @@ box-shadow: 0px 0px 5px black;
 
 .contactdiv {
     position: relative;
-    width: 960px;
+    max-width: 960px;
     height: 300px;
     margin: 10px auto;
     background-color: #526760;
 }
 
 .contact-img {
+    max-width: 100%;
     position: absolute;
     margin-left: 15px;
     margin-top: 50px;
@@ -222,6 +223,7 @@ box-shadow: 0px 0px 5px black;
 }
 
 .contact2-img {
+    max-width: 100%;
     position: absolute;
     margin-left: 645px;
     margin-top: 50px;
@@ -231,7 +233,7 @@ box-shadow: 0px 0px 5px black;
 .contactbox {
     position: absolute;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
     height: 200px;
     background-color:rgba(255, 255, 255, 0.7);
     margin-left: 330px;
@@ -254,11 +256,11 @@ box-shadow: 0px 0px 5px black;
 /*footer*/
 
 #footer{
-    color: white;
+    color: black;
 }
 
 #last-updated, #updated {
-    color: yellow;
+    color: black;
 }
 
 footer {
