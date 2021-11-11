@@ -107,11 +107,11 @@ nav {
 }
 
 #footer{
-    color:black;
+    color:black !important;
 }
 
 #last-updated, #updated {
-    color: black;
+    color: black !important;
 }
 
 footer {
