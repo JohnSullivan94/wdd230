@@ -18,63 +18,64 @@
 
     <body>
 
+        <div class="banner-div">
+            "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
+        </div>
+
         <header>
             <picture>
-                <img src="images/weather2.png" alt="weatherlogo">
+                <img src="images/weather2.png" alt="weatherlogo" class="header-img">
             </picture>
             <section class="headings">
-                <h1>Knowing the Weather</h1>
+                <h1>Knowing <br>the Weather</h1>
             </section>
         </header>
 
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="preston-5.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+        </nav>
+
         <main>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li class="active"><a href="preston-5.html">Preston</a></li>
-                    <li><a href="#">Soda Springs</a></li>
-                    <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a href="#">Gallery</a></li>
-                </ul>
-            </nav>
-
-            <section class="town-heading">
-                <h1>Preston, Idaho</h1>
-            </section> 
-
-                
-            <div class="hero-div">    
-                <div class="hero-photo"> <img src="images/preston.jpg"  alt="preston-weather"> </div>
-                    <section class="hero-summary">
-                        <h3>Weather Summary</h3>
+            
+            <section class="hero-sec">
+            <h1 class="hero-h1">Preston, Idaho</h1>
+            <div class="hero-div">
+                <img class="hero-img" src="images/preston.jpg" alt="preston-photo">
+                <section class="hero-sum">
+                    <h3>Weather Summary</h3>
                         <p>Current</p>
                         <p>High</p>
                         <p>Humidity</p>
                         <p>Wind Speed</p>
-                    </section>
+                </section>
             </div>
-                
+        </section>
 
-                <section class="five-day-forecast">
-                    <h2>5 Day Forecast</h2>
-                </section>
-
-                <div class="forecast">
-                    <div> <img src="images/weather-01.png" alt="sunny" class="weather1"> </div>
-                    <div> <img src="images/weather-02.png" alt="cloudy" class="weather2"> </div>
-                    <div> <img src="images/weather-03.png" alt="rainy" class="weather3"> </div>
-                    <div> <img src="images/weather-04.png" alt="stormy" class="weather4"> </div>
-                    <div> <img src="images/weather-01.png" alt="sunny" class="weather5"> </div>
+            <section class="forecast-sec">
+                <h1 class="forecast-h1">5 Day Forecast</h1>
+                <div class="forecast-div">
+                     <img  src="images/weather-01.png" alt="sunny" class="weather1"> 
+                     <img  src="images/weather-02.png" alt="cloudy" class="weather2"> 
+                     <img  src="images/weather-03.png" alt="rainy" class="weather3"> 
+                     <img  src="images/weather-04.png" alt="stormy" class="weather4"> 
+                     <img src="images/weather-01.png" alt="sunny" class="weather5">
                 </div>
+            </section>
 
-                <section class="article-heading">
-                    <h2>Article</h2>
-                </section>
+            <h1 class="article-h1">Article</h1>
+            
+                <div class="article-div">
 
-                <div class="articlediv">
-                    <p class="article-para">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    <div class="article-text">
+                    <p class="article-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
                         nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
@@ -82,25 +83,30 @@
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
                         deserunt mollit anim id est laborum."
                     </p>
-
+                    </div>
+        
                     <img src="images/article.jpg" alt="article" class="article-img">
                 </div>
 
-                <section class="contact-heading">
-                    <h2>Contact Information</h2>
-                </section>
 
-                <div class="contactdiv">
-                    <div class="contactbox">
-                        <p class="phone">Phone: (333)333-3333</p>
-                        <p class="email">Email: knowingtheweater@email.com</p>
-                    </div>
-                    <img src="images/contact.jpg" alt="contact" class="contact-img">
-                    <img src="images/contact2.jpg" alt="contact2" class="contact2-img">
-                </div>
         </main>
 
         <footer>
+
+           <div class="contact">
+                    
+            <img class="contact-image" src="images/contact.jpg" alt="contact-image">
+
+            <div class="text">
+            <h2 class="contact-h2">Contact Information</h2>
+            <p class="phone">Phone:<br>(333)333-3333</p>
+            <p class="email">Email:<br>knowingtheweather<br>@email.com</p>
+            </div>
+
+            </div>     
+                    
+           
+
             <div class="footer">
             <p> 
                 &copy;<span id="copyrightyear"></span> John J. G. Sullivan | Iowa | <a id="footer" href="https://www.byui.edu/"> BYU-I Online
@@ -112,6 +118,7 @@
         
             <script src="js/dates.js"></script>
             <script src="js/menu.js"></script>
+            <script src="js/banner.js"></script>
             
     </body>
 

@@ -1,0 +1,274 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #17BEBB; 
+    text-align: center; 
+    max-width: 100%;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+        padding: 5px 0;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+}
+
+header img {
+    display:block;
+	width: 100px;
+	height: auto;
+    margin-left: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 35px;
+	margin: 0 0 0 17px;
+}
+
+.town-heading {
+    text-align: center;
+    display: flex;
+    margin: 0 auto 25px;
+    justify-content:center;
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0EDEE;
+    color: #0B0500;
+    margin: 0 auto;
+    
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+}
+
+/*nav*/
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #526760;
+}
+.navigation {
+    list-style: none;
+    margin-top: 0px;
+	padding: .5rem;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #F0EdEE;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #526760;
+	background-color: #F0EDEE;
+}
+
+.navigation li.active a {
+    color: #526760;
+	background-color: #F0EDEE;
+}
+
+.responsive li {
+	display: block;
+}
+
+ /*hero summary*/
+
+ .town-heading {
+    margin: -15px;
+}
+
+ .hero-div {
+     margin: 10px auto;
+     position: relative;
+     max-width: 960px;
+     height: 300px;
+    overflow: hidden;
+ }
+
+ .hero-photo {
+    max-width: 100%;
+    max-height: 300px;
+}
+
+ .hero-summary {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: 1rem;
+    background:rgba(255, 255, 255, 0.7) ;
+ }
+
+.five-day-forecast {
+    text-align: center;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: repeat(5, 192px);
+    position: relative;
+    max-width: 960px;
+    height: 200px;
+    margin: 10px auto;
+    background: rgba(82, 103, 96, 1);
+}
+
+.weather1, .weather2, .weather3, .weather4, .weather5 {
+box-shadow: 0px 0px 5px black;
+   width: 150px;
+   height: 150px;
+   margin-top: 25px;
+   margin-left: 21px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.weather1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.weather2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.weather3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.weather4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.weather5 {
+    grid-column-start: 5;
+}
+
+/*article div*/
+
+.article-heading {
+    text-align: center;
+}
+
+.articlediv {
+    position: relative;
+    background-color: #526760;
+    margin: 10px auto;
+    max-width: 960px;
+    height: 300px;
+}
+
+.article-para {
+    padding: 5px;
+    position: absolute;
+    margin-top: 37.5px;
+    max-width: 500px;
+    margin-left: 30px;
+    background:rgba(255, 255, 255, 0.7)
+    
+}
+
+.article-img {
+    position: absolute;
+    margin-left: 630px;
+    margin-top: 37.5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+/*contact info*/
+
+.contact-heading {
+    text-align: center;
+}
+
+.contactdiv {
+    position: relative;
+    max-width: 960px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: #526760;
+}
+
+.contact-img {
+    max-width: 100%;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 50px;
+    box-shadow: -2px -2px 2px black;
+}
+
+.contact2-img {
+    max-width: 100%;
+    position: absolute;
+    margin-left: 645px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.contactbox {
+    position: absolute;
+    text-align: center;
+    max-width: 300px;
+    height: 200px;
+    background-color:rgba(255, 255, 255, 0.7);
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.phone {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 25px;
+
+}
+
+.email {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 25px;
+}
+
+/*footer*/
+
+#footer{
+    color: black;
+}
+
+#last-updated, #updated {
+    color: black;
+}
+
+footer {
+    background-color: #17BEBB;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+}
+    
