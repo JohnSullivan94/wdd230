@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 415px) {
 
 	.navigation {
 		display: flex;
@@ -14,4 +14,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
+}
+
+@media only screen and (max-width: 1201px) {
+    .header-img {
+        width: 65%;
+    }
 }
