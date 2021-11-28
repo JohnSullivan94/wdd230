@@ -1,0 +1,49 @@
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #0B0500;
+    margin: 0 auto;
+    background-color: rgb(215, 216, 199);
+    text-align: center;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+header, footer {
+    background-color: black;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    text-align: center; 
+    max-width: 100%;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 300px;
+    max-height: 400px;
+}
+
+img[data-src] {
+    -webkit-filter: blur(6px); /* Safari 6.0 - 9.0 */
+    filter: blur(6px);
+}
+
+img {
+    -webkit-filter: blur(0px); /* Safari 6.0 - 9.0 */
+    filter: blur(0px);
+    transition: filter 2s;
+}
