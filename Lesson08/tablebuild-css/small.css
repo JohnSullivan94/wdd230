@@ -1,12 +1,12 @@
 :root {
   --back: #7fb9c2;
   --back2: #628ca6;
-  --forelight: black;
+  --blackFont: black;
   --border: black;
   --shadow: #628ca6;
-  --zebra: white;
-  --zebra2: #e7ffed;
-  --zebra3: #e7f0ed;
+  --whiteFont: white;
+  --bodyBack: #e7ffed;
+  --bodyBack2: #e7f0ed;
 }
 
 body {
@@ -24,7 +24,7 @@ table {
 thead tr:first-child th {
     font-size: 27px;
 	background-color: var(--back);
-	color: var(--forelight);
+	color: var(--blackFont);
 }
 
 thead tr th {
@@ -32,7 +32,7 @@ thead tr th {
 	border: .5px solid var(--border);
     font-size: 18px;
     background-color: var(--back2);
-    color: var(--zebra);
+    color: var(--whiteFont);
 }
 
 td, th {
@@ -46,11 +46,11 @@ tbody tr td, tbody tr th{
 }
 
 tbody tr:nth-child(even){
-	background-color: var(--zebra2);
+	background-color: var(--bodyBack);
 }
 
 tbody tr:nth-child(odd) {
-	background-color: var(--zebra3);
+	background-color: var(--bodyBack2);
 }
 
 tfoot th {
@@ -61,5 +61,5 @@ tfoot th {
 
 #over {
     background-color: var(--back2);
-    color: var(--zebra);
+    color: var(--whiteFont);
 }
