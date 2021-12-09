@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <title>WDD 230 Weather Site | John J. G. Sullivan</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="weather website lesson 06 - john sullivan - byu-i">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  </head>
+
+    <body>
+
+        <div class="banner-div">
+            "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion."
+        </div>
+
+        <header>
+            <picture>
+                <img src="images/weather2.png" alt="weatherlogo" class="header-img">
+            </picture>
+            <section class="headings">
+                <h1>Knowing <br>the Weather</h1>
+            </section>
+        </header>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li><a href="../HomePage/index.html">Home</a></li>
+                <li class="active"><a href="preston.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../StormCenter/stormcenter.html">Storm Center</a></li>
+                <li><a href="../Gallery/gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            
+            <section class="hero-sec">
+            <h1 class="hero-h1">Preston, Idaho</h1>
+            <div class="hero-div">
+
+                <picture class="hero-photo">
+                        <source media="(max-width:414px)" srcset="images/franklin240">
+                        <source media="(max-width:1200px)" srcset="images/fraklin480.jpg">
+                        <source media="(max-width:1600px)" srcset="images/franklin960.jpg"> 
+                        <img src="images/original.jpg" alt="preston" class="hero-img">
+                </picture>
+
+                <section class="hero-sum">
+                    <h3>Weather Summary</h3>
+                        <p>Current</p>
+                        <p>High</p>
+                        <p>Humidity</p>
+                        <p>Wind Speed</p>
+                </section>
+            </div>
+        </section>
+
+            <section class="forecast-sec">
+                <h1 class="forecast-h1">5 Day Forecast</h1>
+                <div class="forecast-div">
+                     <img  src="images/weather-01.png" alt="sunny" class="weather1"> 
+                     <img  src="images/weather-02.png" alt="cloudy" class="weather2"> 
+                     <img  src="images/weather-03.png" alt="rainy" class="weather3"> 
+                     <img  src="images/weather-04.png" alt="stormy" class="weather4"> 
+                     <img src="images/weather-01.png" alt="sunny" class="weather5">
+                </div>
+            </section>
+
+            <h1 class="article-h1">Article</h1>
+            
+                <div class="article-div">
+
+                    <div class="article-text">
+                    <p class="article-p">"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                        deserunt mollit anim id est laborum."
+                    </p>
+                    </div>
+        
+                    <img src="images/article.jpg" alt="article" class="article-img">
+                </div>
+
+
+        </main>
+
+        <footer>
+
+           <div class="contact">
+                    
+            <img class="contact-image" src="images/contact.jpg" alt="contact-image">
+
+            <div class="text">
+            <h2 class="contact-h2">Contact Information</h2>
+            <p class="phone">Phone:<br>(333)333-3333</p>
+            <p class="email">Email:<br>knowingtheweather<br>@email.com</p>
+            </div>
+
+            </div>     
+                    
+           
+
+            <div class="footer">
+            <p> 
+                &copy;<span id="copyrightyear"></span> John J. G. Sullivan | Iowa | <a id="footer" href="https://www.byui.edu/"> BYU-I Online
+                Learning </a> <br><span id="last-updated">Last Updated: <span id="updated"></span></span>
+            </p>
+            </div> 
+        
+        </footer>   
+        
+            <script src="js/dates.js"></script>
+            <script src="js/menu.js"></script>
+            <script src="js/banner.js"></script>
+            <script src="js/current.js"></script>
+            
+    </body>
+
+</html>

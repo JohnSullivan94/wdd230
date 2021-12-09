@@ -1,0 +1,65 @@
+:root {
+  --back: #7fb9c2;
+  --back2: #628ca6;
+  --blackFont: black;
+  --border: black;
+  --shadow: #628ca6;
+  --whiteFont: white;
+  --bodyBack: #e7ffed;
+  --bodyBack2: #e7f0ed;
+}
+
+body {
+    font-family: Ubuntu, sans-serif;
+}
+
+table {
+	margin: 10px auto;
+    max-width: 100%;
+	box-shadow: 8px 6px 15px var(--shadow);
+    border: .5px solid var(--border);
+	border-collapse: collapse;
+}
+
+thead tr:first-child th {
+    font-size: 27px;
+	background-color: var(--back);
+	color: var(--blackFont);
+}
+
+thead tr th {
+	padding: 7px 15px;
+	border: .5px solid var(--border);
+    font-size: 18px;
+    background-color: var(--back2);
+    color: var(--whiteFont);
+}
+
+td, th {
+	text-align: center;
+}
+
+tbody tr td, tbody tr th{
+    font-weight: normal;
+    padding: 7px 15px;
+	border: .5px solid var(--border);
+}
+
+tbody tr:nth-child(even){
+	background-color: var(--bodyBack);
+}
+
+tbody tr:nth-child(odd) {
+	background-color: var(--bodyBack2);
+}
+
+tfoot th {
+    padding: 10px;
+	background-color: var(--back);
+	font-size: 12px !important;
+}
+
+#over {
+    background-color: var(--back2);
+    color: var(--whiteFont);
+}

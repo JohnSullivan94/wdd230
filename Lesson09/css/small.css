@@ -1,0 +1,173 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+header, footer {
+    background-color: #17BEBB; 
+    text-align: center; 
+    max-width: 100%;
+}
+
+header {
+    font-family: 'Roboto', sans-serif;
+        padding: 5px 0;
+        display: flex;
+        align-items:center;
+        justify-content:center;
+}
+
+.header-img {
+    display:block;
+	width: 80%;
+	height: auto;
+    margin-left: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 35px;
+    text-align: left;
+	margin: 0 0 0 17px;
+}
+
+.town-heading {
+    text-align: center;
+    display: flex;
+    margin: 0 auto 25px;
+    justify-content: center;
+}
+
+    @media only screen and (max-width: 415px) {
+        .headings h1 {
+            font-size: 25px;
+            margin: 0 0 0 17px;
+            text-align: left;
+        }
+
+        .header-img {
+            width: 55%;
+        }
+    
+
+    .header-img { 
+        display: block;
+        width: 50% !important;
+        height: auto;
+        margin-left: auto;
+    }
+}
+
+body {
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0EDEE;
+    color: #0B0500;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+main {
+    max-width: 100%;
+    margin: auto;
+}
+
+/*nav*/
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #526760;
+}
+.navigation {
+    list-style: none;
+    margin-top: 0px;
+	padding: .5rem;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	color: #F0EdEE;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: #526760;
+	background-color: #F0EDEE;
+}
+
+@media only screen and (min-width: 415px) {
+    .navigation li.active a {
+        color: #526760;
+        background-color: #F0EDEE;
+    }
+    }
+
+.responsive li {
+	display: block;
+}
+
+/*form*/
+
+.user, .storm, .additional {
+    max-width: 35%;
+    max-height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(82, 103, 96, .1);
+}
+
+.user, .storm {
+    margin-bottom: 20px;
+}
+
+legend {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: center;
+    padding: 10px;
+}
+    
+/*thank you message*/
+.thanks {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    padding-bottom: 10px;
+    background-color:rgba(82, 103, 96, .1);
+    text-align: center;
+}
+
+
+/*footer*/
+
+#footer{
+    color: black;
+}
+
+#last-updated, #updated {
+    color: black;
+}
+
+footer {
+    background-color: #17BEBB;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+}
