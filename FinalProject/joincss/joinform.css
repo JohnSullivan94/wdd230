@@ -43,10 +43,12 @@ legend {
 /*thank you message*/
 .thanks {
     max-width: 75%;
+    box-sizing: border-box;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 20px;
     border: solid 1px black;
-    padding-bottom: 10px;
+    padding: 10px;
     background-color:rgba(82, 103, 96, .1);
     text-align: center;
 }
