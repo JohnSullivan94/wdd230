@@ -14,7 +14,7 @@
 
 .user, .additional {
     max-width: 35%;
-    max-height: auto;
+    height: auto;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
