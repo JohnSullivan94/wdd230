@@ -1,3 +1,17 @@
+.chamber-perks {
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    background-color: #a34a44;
+    max-width: 75%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -5px;
+    color: #F0EdEE;
+}
+
+
 .user, .additional {
     max-width: 35%;
     max-height: auto;
