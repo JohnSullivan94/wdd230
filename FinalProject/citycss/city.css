@@ -181,6 +181,25 @@ height: auto;
     color: #F0EdEE;
 }
 
+/*media query*/
+
+@media only screen and (max-width: 1260px) {
+    .demographics, .current-events {
+           position: relative;
+           display: flex;
+           flex-direction: column;
+           text-align: center;
+           
+    }
+
+    .info-1, .info-2, .info-3 {
+        display: inline-block;
+        float: none;
+        margin: 0 auto !important;
+        margin-top: 15px;
+    }
+}
+
 /*social media*/
 
 .fa {
