@@ -1,0 +1,38 @@
+.user, .additional {
+    max-width: 35%;
+    max-height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color:rgba(82, 103, 96, .1);
+}
+
+.user {
+    margin-bottom: 20px;
+}
+
+legend {
+    text-align: left;
+    font-size: 1.5em;
+    
+}
+
+.submitButton {
+    text-align: center;
+    padding: 10px;
+}
+
+.membership {
+    margin-top: 10px;
+}
+    
+/*thank you message*/
+.thanks {
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    padding-bottom: 10px;
+    background-color:rgba(82, 103, 96, .1);
+    text-align: center;
+}
